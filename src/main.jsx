@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
-                <BrowserRouter basename="/digital-creators-front">
+                <BrowserRouter basename="/fs94-react-node-l-dmitry94">
                     <ThemeProvider>
                         <App />
                     </ThemeProvider>
