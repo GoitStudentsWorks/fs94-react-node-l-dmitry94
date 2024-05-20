@@ -10,7 +10,7 @@ import { store, persistor } from './redux/store.js';
 import './styles/index.scss';
 
 import ThemeProvider from './context/ThemeProvider.jsx';
-
+//test
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Provider store={store}>
